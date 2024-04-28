@@ -33,3 +33,11 @@
 5. Run the 'Testing the Created Models' section of the code
     - currently the code is set to initalize the final, 10 million timestep model, if you want to load an alternative model, simply change 'best_model_10000000' to a different model file in the first code block
 [NOTE: if you changed the storage directory in step 3, make sure you update the 'model = PPO.load(...)' line to include the new directory]
+
+
+### Viewing the Tensorboard Log File ##
+viewing the tensorboard log file is fairly simple, it consists of X steps
+1. open the terminal and navigate to the directory where the log file is stored
+2. run the command 'tensorboard --logdir=.'
+3. Copy the provided link and paste it into a browser
+[NOTE: the tensorboard command will exit if the 'CTRL+C' hotkey is used. This is the same hotkey for copying text on windows, so make sure to either highlight, right click, and copy or simply manually type in the link]
