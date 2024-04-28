@@ -5,13 +5,13 @@
 1. An install of python 3.8 is required for this code to be run
 2. An install of jupyter notebook is required for the code to be run
 3. Run the following command in a terminal window that has access to the python 3.8 installation
-    py -3.8 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-    py -3.8 -m pip install wheel==0.38.4 setuptools==66.0.0
-    py -3.8 -m pip install stable-baselines3==1.8.0 --no-cache-dir
-    py -3.8 -m pip install opencv-python
-    py -3.8 -m pip install --upgrade wheel setuptools
-    py -3.8 -m pip install gym-super-mario-bros
-    py -3.8 -m pip install tensorboard
+    - py -3.8 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    - py -3.8 -m pip install wheel==0.38.4 setuptools==66.0.0
+    - py -3.8 -m pip install stable-baselines3==1.8.0 --no-cache-dir
+    - py -3.8 -m pip install opencv-python
+    - py -3.8 -m pip install --upgrade wheel setuptools
+    - py -3.8 -m pip install gym-super-mario-bros
+    - py -3.8 -m pip install tensorboard
 [NOTE: explanations for what each of these command do are detailed within the main.ipynb file in the section titled 'List of libaries, websites, and other resources referenced for this project:']
 
 ### Running The Code ###
