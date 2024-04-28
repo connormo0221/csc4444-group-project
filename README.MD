@@ -36,7 +36,7 @@
 
 
 ### Viewing the Tensorboard Log File ##
-viewing the tensorboard log file is fairly simple, it consists of X steps
+viewing the tensorboard log file is fairly simple, it consists of 3 steps
 1. open the terminal and navigate to the directory where the log file is stored
 2. run the command 'tensorboard --logdir=.'
 3. Copy the provided link and paste it into a browser
